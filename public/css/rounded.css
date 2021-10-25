@@ -52,7 +52,7 @@ header {
 	margin: 5px 0px;
 	width: 1079px;
 	padding: 15px 15px;
-	background: var(--accents);
+	background: var(--navbg);
 }
 
 header #intro {
