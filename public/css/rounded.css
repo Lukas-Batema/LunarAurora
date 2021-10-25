@@ -149,7 +149,7 @@ header #github i {
 
 .navbar a.left {
 	float: left;
-	color: var(--navbg);
+	color: var(--textcolor);
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
@@ -226,7 +226,7 @@ header #github i {
 	margin-left: 30px;
 	margin-right: 30px;
 	padding-top: 4.5px;
-	color: var(--textcolor);
+	color: white;
 	text-decoration: none;
 	cursor: pointer;
 }
