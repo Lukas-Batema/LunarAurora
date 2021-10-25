@@ -2,12 +2,12 @@
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 
 :root {
-	--accents: #202124;
-	--backgrounds: #202124;
-	--navbg: #303134;
-	--textcolor: white;
-	--outlines: #27282b;
-	--hovers: #3c4043;
+	--accents: rgb(155, 145, 150);
+	--backgrounds: rgb(100, 94, 98);
+	--navbg: rgb(75, 70, 84);
+	--textcolor: rgb(245, 239, 243);
+	--outlines: rgb(50, 53, 59);
+	--hovers: rgb(45, 50, 43);
 }
 
 * {
@@ -28,8 +28,7 @@ body {
 	text-align: center;
 }
 
-h1,
-h2 {
+h1, h2 {
 	font-weight: 400;
 }
 

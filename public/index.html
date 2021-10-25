@@ -2,63 +2,62 @@
 <html lang="en-US">
 	<head>
 		<title>LunarAurora</title>
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<link rel="stylesheet" id="css" href="/css/modern.css" />
-		<link rel="icon" id="css" href="/assets/res/favicon.png" />
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<link rel="stylesheet" type="text/css" id="css" href="./css/modern.css" />
+		<link rel="icon" type="image/png" id="css" href="./assets/res/favicon.png" />
 	</head>
 
 	<body>
-		<div class="navbar">
-			<a class="left" href="/">LunarAurora</a>
+	  <div class="navbar">
+		  <a class="left" href="/">LunarAurora</a>
 			<a href="javascript:void(0)" onClick="settingsOverlay()">Settings</a>
-			<a href="./about.html">About</a>
-			<a href="./changelog.txt">Changelog</a>
-		</div>
+		  <a href="./about.html">About</a>
+		  <a href="./changelog.txt">Changelog</a>
+	  </div>
 
 		<div class="wrapper">
 			<header>
-				<div id="intro">
-					Welcome to LunarAurora!<br>By using this site, you agree to Cookies for Google Analytics and Theme
+			  <div id="intro">
+				  Welcome to LunarAurora!<br>By using this site, you agree to Cookies for Google Analytics and Theme
 				</div>
 			</header>
 
 			<div class="container">
-				<section id="formWrap">
-					<form class="form" id="formInitiate">
-						<input placeholder="Search Google or Enter URL" name="url" autocomplete="off" />
-						<button>Go</button>
+			  <section id="formWrap">
+				  <form class="form" id="formInitiate">
+					  <input placeholder="Search Google or Enter URL" name="url" autocomplete="off" />
+					  <button>Search</button>
 					</form>
 				</section>
 			</div>
 		</div>
 
-		<div id="settingsOverlay" class="settingsOverlay">
-			<span onClick="disableSettingsOverlay()" class="material-icons">
-				close
-			</span>
+	  <div id="settingsOverlay" class="settingsOverlay">
+		  <span onClick="disableSettingsOverlay()" class="material-icons">
+			  close
+		  </span>
 
-			<h1 style="text-indent: 1.75em">Settings</h1>
+  		<h1 style="text-indent: 1.75em">Settings</h1>
+  
+	  	<h2>User Interface</h2>
+       
+		  <img id="uiBoxImg" alt="modern" onClick="newCss()" src="./assets/res/modern.png" />
+		  <img id="uiBoxImg" alt="rounded" onClick="oldCss()" src="./assets/res/rounded.png" />
 
-			<h2>User Interface</h2>
+  	  <br>
 
-			<img id="uiBoxImg" alt="modern" src="/assets/res/modern.png" onClick="newCss()" />
+			<div id="uiBoxText" onClick="newCss()">Modern</div>
 
-			<img id="uiBoxImg" alt="rounded" onClick="oldCss()" src="/assets/res/rounded.png" />
-
-			<br>
-
-			<div id="uiBoxText" onClick="oldCss()">Modern</div>
-
-			<div id="uiBoxText" onClick="oldCss()">Rounded</div>
-		</div>
+		  <div id="uiBoxText" onClick="oldCss()">Rounded</div>
+	  </div>
 
 		<div class="footer">
 			<p>
-				Fork and PR on <a href="https://github.com/lukas-batema/lunaraurora">GitHub</a>
+		  	Fork and PR on <a href="https://github.com/lukas-batema/lunaraurora">GitHub</a>
 			</p>
-		</div>
+	  </div>
 
-		<script src="/assets/ui.js"></script>
-		<script src="/assets/main.js"></script>
+		<script src="./assets/ui.js"></script>
+		<script src="./assets/main.js"></script>
 	</body>
 </html>
