@@ -144,6 +144,11 @@ header #github i {
 	text-align: center;
 }
 
+.footer p a {
+	text-decoration: none;
+	color: white;
+}
+
 #settingsOverlay {
 	position: fixed; /* Sit on top of the page content */
 	display: none; /* Hidden by default */

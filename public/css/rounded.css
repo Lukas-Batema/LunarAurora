@@ -173,6 +173,11 @@ header #github i {
 	border-radius: 35px 35px 0px 0px;
 }
 
+.footer p a {
+	text-decoration: none;
+	color: white;
+}
+
 #settingsOverlay {
 	position: fixed; /* Sit on top of the page content */
 	display: none; /* Hidden by default */
