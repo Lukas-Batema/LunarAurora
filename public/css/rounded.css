@@ -168,7 +168,7 @@ header #github i {
 	width: 98%;
 	margin: 0% 1%;
 	background-color: var(--navbg);
-	color: white;
+	color: var(--textcolor);
 	text-align: center;
 	border-radius: 35px 35px 0px 0px;
 }
@@ -226,7 +226,7 @@ header #github i {
 	margin-left: 30px;
 	margin-right: 30px;
 	padding-top: 4.5px;
-	color: var(--accents);
+	color: var(--textcolor);
 	text-decoration: none;
 	cursor: pointer;
 }
